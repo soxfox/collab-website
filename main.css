@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Righteous|Gugi');
 
 body {
   background-color: skyblue;
@@ -12,4 +12,8 @@ body {
 
 h1 {
   font-family: Righteous, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-family: Gugi, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
