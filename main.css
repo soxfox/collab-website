@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+body {
+  background-color: skyblue;
+}
+
+#wrap {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  font-family: Righteous, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
