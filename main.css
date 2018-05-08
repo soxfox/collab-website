@@ -3,6 +3,7 @@
 body {
   background-color: skyblue;
   color: rgb(68, 68, 68);
+  padding-top: 20px;
 }
 
 #wrap {
@@ -17,4 +18,47 @@ h1 {
 
 p, h2 {
   font-family: Gugi, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover{
+  background-color: #e68536
+}
+
+.navbar {
+  background-color: rgb(55, 82, 117);
+  padding: 6px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 6px;
+  font-size: 16pt;
+  font-family: Gugi;
+}
+
+.dropdown-content a {
+  background-color: rgb(55,82,117);
+  text-decoration: none;
+  font-size: 12pt;
+  display: block;
+  margin: 0;
 }
