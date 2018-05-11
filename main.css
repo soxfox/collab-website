@@ -8,7 +8,6 @@ body {
 
 #wrap {
   width: 60%;
-  text-align: center;
   margin: auto;
 }
 
@@ -16,7 +15,7 @@ h1 {
   font-family: Righteous, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-p, h2 {
+* {
   font-family: Gugi, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
