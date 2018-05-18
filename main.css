@@ -10,6 +10,11 @@ body {
   width: 60%;
   margin: auto;
 }
+@media only screen and (max-width: 768px) {
+  #wrap {
+    width: 100%;
+  }
+}
 
 h1 {
   font-family: Righteous, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
