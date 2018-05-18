@@ -84,6 +84,12 @@ h1 {
   display: block;
   border: 10px solid white;
 }
+@media only screen and (max-width: 768px) {
+  .image-link, .image-link img {
+    width: 95%;
+  }
+}
+
 .text-block {
   display: block;
   position: absolute;
