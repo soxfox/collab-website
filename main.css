@@ -110,13 +110,13 @@ h1 {
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .centered {
     position: absolute;
-    top: 100%;
-    left: 100%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
   
