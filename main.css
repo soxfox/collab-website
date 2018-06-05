@@ -71,25 +71,6 @@ h1 {
   margin: 0;
 }
 
-.image-link {
-  position: relative;
-  display: block;
-  margin: auto;
-  width: 400px;
-}
-
-.image-link img {
-  width: 400px;
-  margin: auto;
-  display: block;
-  border: 10px solid white;
-}
-@media only screen and (max-width: 768px) {
-  .image-link, .image-link img {
-    width: 95%;
-  }
-}
-
 .text-block {
   display: block;
   position: absolute;
